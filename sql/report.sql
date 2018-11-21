@@ -11,10 +11,9 @@ WHERE
 	s.delete_status = 1
 AND d.DELETE_STATUS = 1
 AND p.DELETE_STATUS = 1
-AND (
-	DATE_FORMAT(s.CREATED_TIME, '%Y-%m-%d %H:%i:%S') >= DATE_FORMAT(p.START_DATE, '%Y-%m-%d %H:%i:%S')
-	AND DATE_FORMAT(s.CREATED_TIME, '%Y-%m-%d %H:%i:%S') <= DATE_FORMAT(p.EXPIRY_DATE, '%Y-%m-%d %H:%i:%S')
-);
+AND s.CREATED_TIME >= p.START_DATE
+AND s.CREATED_TIME <= p.EXPIRY_DATE;
+
 
 2、查询报告的不良事件信息（未统计PT和SOC）
 
@@ -53,11 +52,23 @@ SELECT
 	ppmh.medication_end_time AS `用药结束日期`,
 	bra.report_sources AS `企业信息来源`,
 	ra.causal_relationship AS `评价意见`,
-	'' AS 备注
+	'' AS 备注,
+	sr.report_type AS `企业报告类型`,-- add
+	sr.first_create_time AS `首次获知时间`, -- add
+	dur.drug_use_duration AS `给药的持续时间`, -- add
+	dur.drug_use_duration_unit AS `给药的持续时间单位`, -- add 
+	dur.daily_number AS `间隔时间次数`, -- add
+	pb.age_group `年龄层`,	-- add 
+	ae.known_new AS `已知/新的`, -- add
+	ae.known_serious AS `是否严重`, -- add
+	rc.report_ending AS `报告结局`, -- add
+	CONCAT(sr.company_id,'公司内部编号：',sr.report_no,'这是一份来自于',sr.report_type,'的报告，收到报告日期为',sr.first_create_time,'. 该',pb.patient_sex,'性患者',pb.patient_age,',岁，于',ppmh.medication_start_time,'开始进行药物治疗，药物名称：',sr.drug_name,'，单次剂量',dur.drug_dose,dur.drug_dose_unit,'，频率为',dur.time_interval,dur.time_interval_unit,dur.daily_number,'次，给药持续时间为',dur.drug_use_duration,dur.drug_use_duration_unit ) AS `报告描述`
 FROM
 	sys_report AS sr
 LEFT JOIN drug AS d ON sr.drug_name = d.drug_generic_zh_name
+LEFT JOIN drug_use_result AS dur ON dur.drug_id = d.id
 LEFT JOIN adverse_events AS ae ON ae.report_id = sr.id
+LEFT JOIN report_concludes AS rc ON rc.report_id = sr.id
 LEFT JOIN patientinfo_basic AS pb ON sr.id = pb.report_id
 LEFT JOIN patientinfo_previous_medical_history AS ppmh ON sr.id = ppmh.report_id AND ppmh.drug_indications_pt_name = ae.adverse_event_pt_name
 LEFT JOIN basicinfo_report_attributes AS bra ON sr.id = bra.report_id
