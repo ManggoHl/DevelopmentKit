@@ -103,3 +103,51 @@ LEFT JOIN patientinfo_previous_medical_history AS ppmh ON sr.id = ppmh.report_id
 LEFT JOIN basicinfo_report_attributes AS bra ON sr.id = bra.report_id
 LEFT JOIN report_assessment AS ra ON sr.id = ra.report_id 
 WHERE sr.id IN () group by sr.id;
+
+
+
+
+
+
+4、对下面结果统计
+SELECT
+	CASE
+		WHEN ae.known_new = 1
+		AND ae.known_serious = 1 THEN
+			'已知|严重'
+		WHEN ae.known_new = 1
+		AND ae.known_serious = 0 THEN
+			'已知|一般'
+		WHEN ae.known_new = 0
+		AND ae.known_serious = 1 THEN
+			'未知|严重'
+		WHEN ae.known_new = 0
+		AND ae.known_serious = 0 THEN
+			'未知|一般'
+		ELSE
+			'*'
+		END AS lable,
+	ae.adverse_event_pt_name AS `PT名称`,
+	ae.adverse_event_name AS `不良事件名称`,
+	ae.adverse_event_dict_id AS `药品字典id`,
+	md.adverse_soc_name AS `SOC名称`,
+	md.adverse_soc_code AS `SOC编码`
+FROM
+	adverse_events AS ae
+LEFT JOIN sys_report AS sr ON sr.id = ae.report_id
+LEFT JOIN medical_dictionary AS md ON ae.adverse_event_dict_id = md.id
+WHERE
+	ae.DELETE_STATUS = 1
+AND sr.id IN (SELECT DISTINCT
+	s.id AS `报告Id` -- ,
+	-- s.report_no AS `报告编号`
+FROM
+	sys_report AS s
+LEFT JOIN drug_info AS d ON d.report_id = s.id
+LEFT JOIN psur AS p ON d.active_ingredients = p.ACTIVE_INGREDIENTS
+WHERE
+	s.delete_status = 1
+AND d.DELETE_STATUS = 1
+AND p.DELETE_STATUS = 1
+AND s.CREATED_TIME >= p.START_DATE
+AND s.CREATED_TIME <= p.EXPIRY_DATE);
