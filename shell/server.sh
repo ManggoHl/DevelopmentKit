@@ -1,17 +1,15 @@
-#!/bin/sh
- 
+#!/bin/sh 
 #配置java环境变量，如有可把此处注释掉
 export JAVA_HOME=/env/java/1.8/jdk1.8.0_161
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$JAVA_HOME/bin:$PATH
- 
 #项目名称，请改成自己jar包名称，不要带.jar
 APP_NAME=pass-admin
 JAVA_OPS="-server"
 #项目路径，更改为自己的路径，剩下的都不用动
 APP_HOME="/home/passadmin/$APP_NAME"
 APP_PID=0
- 
+
 getPid(){
   local temppid=`ps aux|grep java|grep $APP_NAME|grep -v grep | awk '{print $2}'`
   if [ -n "$temppid" ]; then
@@ -20,7 +18,7 @@ getPid(){
     APP_PID=0
   fi
 }
- 
+
 start(){
   getPid
   if [ "$APP_PID" -ne 0 ]; then
@@ -36,7 +34,7 @@ start(){
     fi
   fi 
 }
- 
+
 stop(){
   getPid
   if [  "$APP_PID" -ne 0 ]; then
@@ -55,12 +53,12 @@ stop(){
     echo "$APP_NAME is not running."
   fi
 }
- 
+
 restart(){
   stop
   start
 }
- 
+
 status(){
   getPid
   if [ $APP_PID -ne 0 ]; then
@@ -69,12 +67,12 @@ status(){
     echo "$APP_NAME is not running"
   fi
 }
- 
+
 if [ "$(id -u)" -eq 0 ]; then
   echo "$APP_NAME must not be run as root!"
   exit 1
 fi
- 
+
 case "$1" in
   start)
     start
@@ -98,4 +96,3 @@ case "$1" in
     exit 1
   ;;
 esac
- 
