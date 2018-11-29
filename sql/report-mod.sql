@@ -64,6 +64,21 @@ SELECT
 	-- ae.known_new AS `已知/新的`, -- add
 	-- ae.known_serious AS `是否严重`, -- add
 	-- rc.report_ending AS `报告结局`, -- add
+	sr.company_id AS `公司id`,
+	sr.report_type AS `企业报告类型`,
+	sr.first_create_time AS `首次获知时间`,
+	sr.drug_name  AS `药物名称`,
+	dur.drug_dose AS `单次剂量`,
+	dur.drug_dose_unit AS `计量单位`,
+	dur.time_interval AS `间隔时间`,
+	dur.time_interval_unit AS `间隔时间单位`,
+	dur.daily_number AS `间隔时间次数`,
+	dur.drug_use_duration AS `给药持续时间`,
+	dur.drug_use_duration_unit AS `给药持续时间单位`,
+	ae.known_new AS `是否已知`,
+	ae.known_serious AS `是否严重`,
+	pb.age_group AS `年龄层`,
+	rc.report_ending AS `报告总结`,
 	CONCAT(IFNULL(sr.company_id,'*'),'公司内部编号：',IFNULL(sr.report_no,'*'),'这是一份来自于'
 			,IFNULL(sr.report_type,'*'),'的报告，收到报告日期为',IFNULL(sr.first_create_time,'*')
 			,'。 该',IFNULL(pb.patient_sex,'*'),'性患者',IFNULL(pb.patient_age,'*'),',岁，于'
