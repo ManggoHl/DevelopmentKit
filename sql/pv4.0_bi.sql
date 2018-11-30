@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50718
 File Encoding         : 65001
 
-Date: 2018-11-16 15:06:17
+Date: 2018-11-30 13:51:54
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -1366,10 +1366,10 @@ CREATE TABLE `psur` (
 -- Records of psur
 -- ----------------------------
 INSERT INTO `psur` VALUES ('04e2960e5c7f4f7184188038b72d3423', 'P000004', '345a8b5ccf164f8caaad564f2addddsc', 'chance1', '2222', '2018-11-20', '2018-10-03', '2019-11-20', '2019-01-12', 'xiaoyan', '33', '1', '2018-11-07', '2018-11-07', null, null, null, null, '62', '0', '1', '0', '33', '2018-11-07 11:14:48', '33', '2018-11-07 11:14:48');
-INSERT INTO `psur` VALUES ('12b4a2b89e3f4a99b931ba1b27e479d3', 'P000006', '345a8b5ccf164f8caaad564f2addddsc', 'chance1', '2222', '2018-11-06', '2018-11-14', '2019-11-14', '2019-01-13', 'xiaoyan', '33', '1', '2018-11-07', '2018-11-07', null, null, null, null, '62', '0', '0', '0', '33', '2018-11-07 16:51:28', '33', '2018-11-07 16:51:28');
+INSERT INTO `psur` VALUES ('12b4a2b89e3f4a99b931ba1b27e479d3', 'P000006', '3cc5315f27b641d2a872864ed8099561', 'chance1', '2222', '2018-11-06', '2018-11-14', '2019-11-14', '2019-01-13', 'xiaoyan', '33', '1', '2018-11-07', '2018-11-07', null, null, null, null, '62', '0', '0', '0', '33', '2018-11-07 16:51:28', '33', '2018-11-07 16:51:28');
 INSERT INTO `psur` VALUES ('1335927b6770406aa863e4287b11d9ef', 'P000001', '345a8b5ccf164f8caaad564f2addddsc', 'chance1', '2222', '2018-11-06', '2018-11-14', '2019-11-14', '2019-01-13', 'xiaoyan', 'bf4dd9b1769d4abc9b2bd556154f3147', '1', '2018-11-05', '2018-11-05', null, null, null, null, '62', '0', '1', '0', '33', '2018-11-05 17:48:04', '33', '2018-11-05 17:48:04');
 INSERT INTO `psur` VALUES ('400c751a8a764ed4a5aa5fe8e14f75d7', 'P000002', '345a8b5ccf164f8caaad564f2addddsc', 'chance1', '2222', '2018-11-06', '2018-11-07', '2019-11-07', '2019-01-06', 'xiaoyan', 'bf4dd9b1769d4abc9b2bd556154f3147', '1', '2018-11-05', '2018-11-05', null, null, null, null, '62', '0', '1', '0', '33', '2018-11-05 17:50:01', '33', '2018-11-05 17:50:01');
-INSERT INTO `psur` VALUES ('4dc8a35a12024654ae996c5cac8677d8', 'P000003', '345a8b5ccf164f8caaad564f2addddsc', 'chance', '2222', '2018-11-13', '2018-11-14', '2019-11-14', '2019-01-13', 'xiaoyan', 'bf4dd9b1769d4abc9b2bd556154f3147', '1', '2018-11-07', '2018-11-07', null, null, null, null, '62', '0', '1', '0', '33', '2018-11-07 11:10:44', '33', '2018-11-07 11:10:44');
+INSERT INTO `psur` VALUES ('4dc8a35a12024654ae996c5cac8677d8', 'P000003', '3cc5315f27b641d2a872864ed8099561', 'chance', '2222', '2018-11-13', '2018-11-14', '2019-11-14', '2019-01-13', 'xiaoyan', 'bf4dd9b1769d4abc9b2bd556154f3147', '1', '2018-11-07', '2018-11-07', null, null, null, null, '62', '0', '1', '0', '33', '2018-11-07 11:10:44', '33', '2018-11-07 11:10:44');
 INSERT INTO `psur` VALUES ('726ecefc9d5748eba61da505e0a1c0fb', 'P000005', '345a8b5ccf164f8caaad564f2addddsc', 'chance', '2222', '2018-11-06', '2018-11-30', '2019-11-30', '2019-01-29', 'xiaoyan', '33', '1', '2018-11-07', '2018-11-07', null, null, null, null, '62', '0', '1', '0', '33', '2018-11-07 16:59:44', '33', '2018-11-07 16:59:44');
 INSERT INTO `psur` VALUES ('99e85a469b05429dbe7c1f2b7f0ec4b3', 'P000007', '345a8b5ccf164f8caaad564f2addddsc', 'chance', '2222', '2018-11-06', '2018-11-13', '2019-11-13', '2019-01-12', 'xiaoyan', '33', '1', '2018-11-07', '2018-11-07', null, null, null, null, '62', '0', '0', '0', '33', '2018-11-07 17:02:28', '33', '2018-11-07 17:02:28');
 INSERT INTO `psur` VALUES ('aeff9591c74f4df6bf9fbf9558560130', 'P000008', '345a8b5ccf164f8caaad564f2addddsc', 'chance', '2222', '2018-11-05', '2018-11-07', '2019-11-07', '2019-01-06', 'xiaoyan', '33', '1', '2018-11-08', '2018-11-08', null, null, null, null, '62', '0', '0', '0', '33', '2018-11-08 17:52:43', '33', '2018-11-08 17:52:43');
@@ -1393,23 +1393,88 @@ CREATE TABLE `pv_1_adverse_event_detail` (
   `event_start_date` datetime DEFAULT NULL COMMENT '事件开始日期',
   `events_turn` int(11) DEFAULT NULL COMMENT '事件转归情况',
   `patient_age` int(11) DEFAULT NULL COMMENT '患者年龄',
-  `patient_sex` varchar(1) DEFAULT NULL,
+  `patient_sex` varchar(1) DEFAULT NULL COMMENT '患者性别',
   `medication_start_time` varchar(32) DEFAULT NULL COMMENT '用药开始日期',
   `medication_end_time` varchar(32) DEFAULT NULL COMMENT '用药结束日期',
   `report_sources` int(11) DEFAULT NULL COMMENT '企业信息来源',
   `causal_relationship` int(11) DEFAULT NULL COMMENT '因果关系',
-  `remark` varchar(500) DEFAULT '' COMMENT '备注',
-  `sessionruntime` varchar(20) DEFAULT '' COMMENT '运行时间'
+  `adverse_soc_name` varchar(50) DEFAULT NULL COMMENT '系统器官分类名称(SOC)',
+  `plan_number` varchar(12) COMMENT '计划编号',
+  `company_id` varchar(32) DEFAULT NULL COMMENT '公司ID',
+  `remark` varchar(1000) DEFAULT NULL COMMENT '备注',
+  `report_type` int(11) DEFAULT NULL COMMENT '企业报告类型',
+  `first_create_time` datetime DEFAULT NULL COMMENT '首次获知时间',
+  `drug_name` varchar(3120) DEFAULT NULL COMMENT '药物名称(商品名;通用名称)',
+  `drug_dose` decimal(10,3) DEFAULT NULL COMMENT '剂量',
+  `drug_dose_unit` int(11) DEFAULT NULL COMMENT '剂量单位',
+  `time_interval` int(11) DEFAULT NULL COMMENT '间隔时间',
+  `time_interval_unit` int(11) DEFAULT NULL COMMENT '间隔时间单位',
+  `daily_number` decimal(10,3) DEFAULT NULL COMMENT '每日次数',
+  `drug_use_duration` int(11) DEFAULT NULL COMMENT '给药的持续时间',
+  `drug_use_duration_unit` int(11) DEFAULT NULL COMMENT '给药的持续时间单位',
+  `known_new` int(11) DEFAULT NULL COMMENT '已知/新的',
+  `known_serious` int(11) DEFAULT NULL COMMENT '是否严重',
+  `age_group` int(11) DEFAULT NULL COMMENT '年龄层',
+  `report_ending` int(11) DEFAULT NULL COMMENT '报告结局',
+  `drug_generic_zh_name` text COMMENT '通用中文名称',
+  `drug_generic_en_name` text COMMENT '通用英文名称',
+  `drug_product_zh_name` text COMMENT '商品中文名称',
+  `drug_product_en_name` text COMMENT '商品英文名称',
+  `report_description` text COMMENT '报告描述',
+  `company_description` text COMMENT '公司描述'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='个例药品不良反应病例列表';
 
 -- ----------------------------
 -- Records of pv_1_adverse_event_detail
 -- ----------------------------
-INSERT INTO `pv_1_adverse_event_detail` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '2018-11-16 00:00:01');
-INSERT INTO `pv_1_adverse_event_detail` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '2018-11-16 00:00:01');
-INSERT INTO `pv_1_adverse_event_detail` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '2018-11-16 00:00:01');
-INSERT INTO `pv_1_adverse_event_detail` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '2018-11-16 00:00:01');
-INSERT INTO `pv_1_adverse_event_detail` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '2018-11-16 00:00:01');
+INSERT INTO `pv_1_adverse_event_detail` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', '0', null, '', '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, '肝类', null, '62', '', null, '2018-11-05 00:00:00', ';1', null, null, null, null, null, null, null, '1', '1', null, null, '1', ',*,1', '1,21,,*,万千瓦', ',*', '62公司内部编号：2018ASDF000045这是一份来自于*的报告，收到报告日期为2018-11-05 00:00:00。 该*性患者*,岁，于*开始进行药物治疗，药物名称：;1，单次剂量**，频率为***次，给药持续时间为**', '**性，使用;1后出现发烧事件2，为已知严重的反应，考虑为*');
+INSERT INTO `pv_1_adverse_event_detail` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', '1', null, '', '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, '头疼脑热类', null, '62', '', null, '2018-11-06 00:00:00', ';1', null, null, null, null, null, null, null, '1', '0', null, null, '1', ',*,1', '1,21,,*,万千瓦', ',*', '62公司内部编号：2018ASDF000056这是一份来自于*的报告，收到报告日期为2018-11-06 00:00:00。 该*性患者*,岁，于*开始进行药物治疗，药物名称：;1，单次剂量**，频率为***次，给药持续时间为**', '**性，使用;1后出现寒战事件3，为已知一般的反应，考虑为*');
+INSERT INTO `pv_1_adverse_event_detail` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', '1', null, '', '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, '头疼脑热类', null, '62', '', null, '2018-11-07 15:31:52', ';1', null, null, null, null, null, null, null, '1', '1', null, null, '1', ',*,1', '1,21,,*,万千瓦', ',*', '62公司内部编号：2018ASDF000042这是一份来自于*的报告，收到报告日期为2018-11-07 15:31:52。 该*性患者*,岁，于*开始进行药物治疗，药物名称：;1，单次剂量**，频率为***次，给药持续时间为**', '**性，使用;1后出现头疼事件1，为已知严重的反应，考虑为*');
+INSERT INTO `pv_1_adverse_event_detail` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', '1', null, '', '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, '头疼脑热类', null, '62', '', null, '2018-11-15 00:00:00', ';1', null, null, null, null, null, null, null, '0', '0', null, null, '1', ',*,1', '1,21,,*,万千瓦', ',*', '62公司内部编号：2018ASDF000041这是一份来自于*的报告，收到报告日期为2018-11-15 00:00:00。 该*性患者*,岁，于*开始进行药物治疗，药物名称：;1，单次剂量**，频率为***次，给药持续时间为**', '**性，使用;1后出现头疼事件2，为未知一般的反应，考虑为*');
+INSERT INTO `pv_1_adverse_event_detail` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', '0', null, '', '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, '肝类', null, '62', '', null, '2018-11-07 18:34:44', ';1', null, null, null, null, null, null, null, '1', '1', null, null, '1', ',*,1', '1,21,,*,万千瓦', ',*', '62公司内部编号：2018ASDF000046这是一份来自于*的报告，收到报告日期为2018-11-07 18:34:44。 该*性患者*,岁，于*开始进行药物治疗，药物名称：;1，单次剂量**，频率为***次，给药持续时间为**', '**性，使用;1后出现发烧事件7，为已知严重的反应，考虑为*');
+
+-- ----------------------------
+-- Table structure for pv_1_adverse_event_detail_1
+-- ----------------------------
+DROP TABLE IF EXISTS `pv_1_adverse_event_detail_1`;
+CREATE TABLE `pv_1_adverse_event_detail_1` (
+  `id` varchar(32) NOT NULL COMMENT '报告ID',
+  `report_no` varchar(32) DEFAULT NULL COMMENT '报告编号',
+  `event_from_country` varchar(32) DEFAULT NULL COMMENT '事件发生国家',
+  `first_follow_up` int(11) DEFAULT NULL COMMENT '首次/随访报告',
+  `drug_production_batch` varchar(50) DEFAULT NULL COMMENT '生产批号',
+  `drug_dosage` varchar(500) DEFAULT '' COMMENT '用法用量',
+  `adverse_event_name` varchar(32) DEFAULT NULL COMMENT '不良事件名称',
+  `adverse_event_pt_name` varchar(32) DEFAULT NULL COMMENT '不良事件术语(pt)',
+  `event_start_date` datetime DEFAULT NULL COMMENT '事件开始日期',
+  `events_turn` int(11) DEFAULT NULL COMMENT '事件转归情况',
+  `patient_age` int(11) DEFAULT NULL COMMENT '患者年龄',
+  `patient_sex` varchar(1) DEFAULT NULL,
+  `medication_start_time` varchar(32) DEFAULT NULL COMMENT '用药开始日期',
+  `medication_end_time` varchar(32) DEFAULT NULL COMMENT '用药结束日期',
+  `report_sources` int(11) DEFAULT NULL COMMENT '企业信息来源',
+  `causal_relationship` int(11) DEFAULT NULL COMMENT '因果关系',
+  `adverse_soc_name` varchar(50) DEFAULT NULL COMMENT 'SOC名称',
+  `plan_number` varchar(12) NOT NULL COMMENT '计划编号',
+  `company_id` varchar(32) DEFAULT NULL COMMENT '公司ID',
+  `remark` varchar(500) DEFAULT '' COMMENT '备注',
+  `sessionruntime` varchar(20) DEFAULT '' COMMENT '运行时间',
+  `drug_generic_en_name` varchar(100) DEFAULT NULL COMMENT '通用英文名称',
+  `drug_generic_zh_name` varchar(100) DEFAULT NULL COMMENT '通用中文名称',
+  `drug_product_en_name` varchar(100) DEFAULT NULL COMMENT '商品英文名称',
+  `drug_product_zh_name` varchar(100) DEFAULT NULL COMMENT '商品中文名称',
+  `report_description` varchar(1000) DEFAULT NULL COMMENT '报告描述',
+  `company_description` varchar(1000) DEFAULT NULL COMMENT '报告描述'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='个例药品不良反应病例列表';
+
+-- ----------------------------
+-- Records of pv_1_adverse_event_detail_1
+-- ----------------------------
+INSERT INTO `pv_1_adverse_event_detail_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', '1', null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, '头疼脑热类', '', '62', null, '2018-11-29 11:22:07', null, null, null, null, null, null);
+INSERT INTO `pv_1_adverse_event_detail_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', '1', null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, '头疼脑热类', '', '62', null, '2018-11-29 11:22:07', null, null, null, null, null, null);
+INSERT INTO `pv_1_adverse_event_detail_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', '0', null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, '肝类', '', '62', null, '2018-11-29 11:22:07', null, null, null, null, null, null);
+INSERT INTO `pv_1_adverse_event_detail_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', '1', null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, '头疼脑热类', '', '62', null, '2018-11-29 11:22:07', null, null, null, null, null, null);
+INSERT INTO `pv_1_adverse_event_detail_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', '0', null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, '肝类', '', '62', null, '2018-11-29 11:22:07', null, null, null, null, null, null);
 
 -- ----------------------------
 -- Table structure for pv_1_adverse_event_detail_snapshot
@@ -1427,12 +1492,35 @@ CREATE TABLE `pv_1_adverse_event_detail_snapshot` (
   `event_start_date` datetime DEFAULT NULL COMMENT '事件开始日期',
   `events_turn` int(11) DEFAULT NULL COMMENT '事件转归情况',
   `patient_age` int(11) DEFAULT NULL COMMENT '患者年龄',
-  `patient_sex` varchar(1) DEFAULT NULL,
+  `patient_sex` varchar(1) DEFAULT NULL COMMENT '患者性别',
   `medication_start_time` varchar(32) DEFAULT NULL COMMENT '用药开始日期',
   `medication_end_time` varchar(32) DEFAULT NULL COMMENT '用药结束日期',
   `report_sources` int(11) DEFAULT NULL COMMENT '企业信息来源',
   `causal_relationship` int(11) DEFAULT NULL COMMENT '因果关系',
-  `remark` varchar(500) DEFAULT '' COMMENT '备注',
+  `adverse_soc_name` varchar(50) DEFAULT NULL COMMENT '系统器官分类名称(SOC)',
+  `plan_number` varchar(12) COMMENT '计划编号',
+  `company_id` varchar(32) DEFAULT NULL COMMENT '公司ID',
+  `remark` varchar(1000) DEFAULT NULL COMMENT '备注',
+  `report_type` int(11) DEFAULT NULL COMMENT '企业报告类型',
+  `first_create_time` datetime DEFAULT NULL COMMENT '首次获知时间',
+  `drug_name` varchar(3120) DEFAULT NULL COMMENT '药物名称(商品名;通用名称)',
+  `drug_dose` decimal(10,3) DEFAULT NULL COMMENT '剂量',
+  `drug_dose_unit` int(11) DEFAULT NULL COMMENT '剂量单位',
+  `time_interval` int(11) DEFAULT NULL COMMENT '间隔时间',
+  `time_interval_unit` int(11) DEFAULT NULL COMMENT '间隔时间单位',
+  `daily_number` decimal(10,3) DEFAULT NULL COMMENT '每日次数',
+  `drug_use_duration` int(11) DEFAULT NULL COMMENT '给药的持续时间',
+  `drug_use_duration_unit` int(11) DEFAULT NULL COMMENT '给药的持续时间单位',
+  `known_new` int(11) DEFAULT NULL COMMENT '已知/新的',
+  `known_serious` int(11) DEFAULT NULL COMMENT '是否严重',
+  `age_group` int(11) DEFAULT NULL COMMENT '年龄层',
+  `report_ending` int(11) DEFAULT NULL COMMENT '报告结局',
+  `drug_generic_zh_name` text COMMENT '通用中文名称',
+  `drug_generic_en_name` text COMMENT '通用英文名称',
+  `drug_product_zh_name` text COMMENT '商品中文名称',
+  `drug_product_en_name` text COMMENT '商品英文名称',
+  `report_description` text COMMENT '报告描述',
+  `company_description` text COMMENT '公司描述',
   `sessionruntime` varchar(20) DEFAULT '' COMMENT '运行时间',
   `records` int(11) DEFAULT NULL COMMENT '报告记录数'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='个例药品不良反应病例列表-快照表';
@@ -1440,46 +1528,109 @@ CREATE TABLE `pv_1_adverse_event_detail_snapshot` (
 -- ----------------------------
 -- Records of pv_1_adverse_event_detail_snapshot
 -- ----------------------------
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 13:43:11', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '2018-11-14 13:43:11', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 13:43:11', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 13:43:11', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '2018-11-14 13:43:11', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 14:00:11', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '2018-11-14 14:00:11', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 14:00:11', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 14:00:11', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '2018-11-14 14:00:11', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 15:39:38', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '2018-11-14 15:39:38', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 15:39:38', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 15:39:38', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '2018-11-14 15:39:38', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 15:40:04', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '2018-11-14 15:40:04', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 15:40:04', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 15:40:04', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '2018-11-14 15:40:04', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 15:43:48', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '2018-11-14 15:43:48', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 15:43:48', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '2018-11-14 15:43:48', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '2018-11-14 15:43:48', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '2018-11-15 08:53:01', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '2018-11-15 08:53:01', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '2018-11-15 08:53:01', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '2018-11-15 08:53:01', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '2018-11-15 08:53:01', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '2018-11-15 10:58:35', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '2018-11-15 10:58:35', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '2018-11-15 10:58:35', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '2018-11-15 10:58:35', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '2018-11-15 10:58:35', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '2018-11-16 00:00:01', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '2018-11-16 00:00:01', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '2018-11-16 00:00:01', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '2018-11-16 00:00:01', '5');
-INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '2018-11-16 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', '0', null, '', '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, '肝类', null, '62', '', null, '2018-11-05 00:00:00', ';1', null, null, null, null, null, null, null, '1', '1', null, null, '1', ',*,1', '1,21,,*,万千瓦', ',*', '62公司内部编号：2018ASDF000045这是一份来自于*的报告，收到报告日期为2018-11-05 00:00:00。 该*性患者*,岁，于*开始进行药物治疗，药物名称：;1，单次剂量**，频率为***次，给药持续时间为**', '**性，使用;1后出现发烧事件2，为已知严重的反应，考虑为*', '2018-11-29 14:14:41', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', '1', null, '', '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, '头疼脑热类', null, '62', '', null, '2018-11-06 00:00:00', ';1', null, null, null, null, null, null, null, '1', '0', null, null, '1', ',*,1', '1,21,,*,万千瓦', ',*', '62公司内部编号：2018ASDF000056这是一份来自于*的报告，收到报告日期为2018-11-06 00:00:00。 该*性患者*,岁，于*开始进行药物治疗，药物名称：;1，单次剂量**，频率为***次，给药持续时间为**', '**性，使用;1后出现寒战事件3，为已知一般的反应，考虑为*', '2018-11-29 14:14:41', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', '1', null, '', '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, '头疼脑热类', null, '62', '', null, '2018-11-07 15:31:52', ';1', null, null, null, null, null, null, null, '1', '1', null, null, '1', ',*,1', '1,21,,*,万千瓦', ',*', '62公司内部编号：2018ASDF000042这是一份来自于*的报告，收到报告日期为2018-11-07 15:31:52。 该*性患者*,岁，于*开始进行药物治疗，药物名称：;1，单次剂量**，频率为***次，给药持续时间为**', '**性，使用;1后出现头疼事件1，为已知严重的反应，考虑为*', '2018-11-29 14:14:41', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', '1', null, '', '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, '头疼脑热类', null, '62', '', null, '2018-11-15 00:00:00', ';1', null, null, null, null, null, null, null, '0', '0', null, null, '1', ',*,1', '1,21,,*,万千瓦', ',*', '62公司内部编号：2018ASDF000041这是一份来自于*的报告，收到报告日期为2018-11-15 00:00:00。 该*性患者*,岁，于*开始进行药物治疗，药物名称：;1，单次剂量**，频率为***次，给药持续时间为**', '**性，使用;1后出现头疼事件2，为未知一般的反应，考虑为*', '2018-11-29 14:14:41', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', '0', null, '', '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, '肝类', null, '62', '', null, '2018-11-07 18:34:44', ';1', null, null, null, null, null, null, null, '1', '1', null, null, '1', ',*,1', '1,21,,*,万千瓦', ',*', '62公司内部编号：2018ASDF000046这是一份来自于*的报告，收到报告日期为2018-11-07 18:34:44。 该*性患者*,岁，于*开始进行药物治疗，药物名称：;1，单次剂量**，频率为***次，给药持续时间为**', '**性，使用;1后出现发烧事件7，为已知严重的反应，考虑为*', '2018-11-29 14:14:41', '5');
+
+-- ----------------------------
+-- Table structure for pv_1_adverse_event_detail_snapshot_1
+-- ----------------------------
+DROP TABLE IF EXISTS `pv_1_adverse_event_detail_snapshot_1`;
+CREATE TABLE `pv_1_adverse_event_detail_snapshot_1` (
+  `id` varchar(32) NOT NULL COMMENT '报告ID',
+  `report_no` varchar(32) DEFAULT NULL COMMENT '报告编号',
+  `event_from_country` varchar(32) DEFAULT NULL COMMENT '事件发生国家',
+  `first_follow_up` int(11) DEFAULT NULL COMMENT '首次/随访报告',
+  `drug_production_batch` varchar(50) DEFAULT NULL COMMENT '生产批号',
+  `drug_dosage` varchar(500) DEFAULT '' COMMENT '用法用量',
+  `adverse_event_name` varchar(32) DEFAULT NULL COMMENT '不良事件名称',
+  `adverse_event_pt_name` varchar(32) DEFAULT NULL COMMENT '不良事件术语(pt)',
+  `event_start_date` datetime DEFAULT NULL COMMENT '事件开始日期',
+  `events_turn` int(11) DEFAULT NULL COMMENT '事件转归情况',
+  `patient_age` int(11) DEFAULT NULL COMMENT '患者年龄',
+  `patient_sex` varchar(1) DEFAULT NULL,
+  `medication_start_time` varchar(32) DEFAULT NULL COMMENT '用药开始日期',
+  `medication_end_time` varchar(32) DEFAULT NULL COMMENT '用药结束日期',
+  `report_sources` int(11) DEFAULT NULL COMMENT '企业信息来源',
+  `causal_relationship` int(11) DEFAULT NULL COMMENT '因果关系',
+  `adverse_soc_name` varchar(50) DEFAULT NULL COMMENT 'SOC名称',
+  `plan_number` varchar(12) NOT NULL COMMENT '计划编号',
+  `company_id` varchar(32) DEFAULT NULL COMMENT '公司ID',
+  `remark` varchar(500) DEFAULT '' COMMENT '备注',
+  `sessionruntime` varchar(20) DEFAULT '' COMMENT '运行时间',
+  `records` int(11) DEFAULT NULL COMMENT '报告记录数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='个例药品不良反应病例列表-快照表';
+
+-- ----------------------------
+-- Records of pv_1_adverse_event_detail_snapshot_1
+-- ----------------------------
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 13:43:11', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 13:43:11', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 13:43:11', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 13:43:11', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 13:43:11', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 14:00:11', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 14:00:11', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 14:00:11', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 14:00:11', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 14:00:11', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:39:38', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:39:38', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:39:38', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:39:38', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:39:38', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:40:04', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:40:04', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:40:04', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:40:04', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:40:04', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:43:48', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:43:48', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:43:48', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:43:48', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '', null, null, '2018-11-14 15:43:48', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-15 08:53:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-15 08:53:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-15 08:53:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-15 08:53:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '', null, null, '2018-11-15 08:53:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-15 10:58:35', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-15 10:58:35', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-15 10:58:35', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-15 10:58:35', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '', null, null, '2018-11-15 10:58:35', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-16 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-16 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-16 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-16 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '', null, null, '2018-11-16 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-17 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-17 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-17 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-17 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '', null, null, '2018-11-17 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-18 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-18 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-18 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-18 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '', null, null, '2018-11-18 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-19 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-19 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-19 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, null, '', null, null, '2018-11-19 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, null, '', null, null, '2018-11-19 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', null, null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, '头疼脑热类', '', '62', null, '2018-11-20 14:22:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', null, null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, '头疼脑热类', '', '62', null, '2018-11-20 14:22:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', null, null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, '肝类', '', '62', null, '2018-11-20 14:22:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', null, null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, '头疼脑热类', '', '62', null, '2018-11-20 14:22:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', null, null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, '肝类', '', '62', null, '2018-11-20 14:22:01', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '2018ASDF000056', '中国', '1', null, null, '寒战事件3', '寒战', '2018-10-01 00:00:00', null, null, null, null, null, null, null, '头疼脑热类', '', '62', null, '2018-11-29 11:22:07', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6430f06ad9be47339007e72125dc557f', '2018ASDF000042', '中国', '1', null, null, '头疼事件1', '头疼', '2018-11-07 15:32:00', null, null, null, null, null, null, null, '头疼脑热类', '', '62', null, '2018-11-29 11:22:07', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '2018ASDF000045', '中国', '0', null, null, '发烧事件2', '发烧', '2018-11-05 00:00:00', null, null, null, null, null, null, null, '肝类', '', '62', null, '2018-11-29 11:22:07', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '2018ASDF000041', '中国', '1', null, null, '头疼事件2', '头疼', '2018-10-29 00:00:00', null, null, null, null, null, null, null, '头疼脑热类', '', '62', null, '2018-11-29 11:22:07', '5');
+INSERT INTO `pv_1_adverse_event_detail_snapshot_1` VALUES ('ff9d6683bc814dc18235cb55b2689724', '2018ASDF000046', '中国', '0', null, null, '发烧事件7', '发烧', '2018-11-07 18:35:47', null, null, null, null, null, null, null, '肝类', '', '62', null, '2018-11-29 11:22:07', '5');
 
 -- ----------------------------
 -- Table structure for pv_1_adverse_event_summary
@@ -1488,6 +1639,8 @@ DROP TABLE IF EXISTS `pv_1_adverse_event_summary`;
 CREATE TABLE `pv_1_adverse_event_summary` (
   `adverse_soc_name` varchar(50) DEFAULT NULL COMMENT 'SOC名称',
   `adverse_event_pt_name` varchar(32) DEFAULT NULL COMMENT 'PT名称',
+  `company_id` varchar(32) DEFAULT NULL COMMENT '公司ID',
+  `plan_number` varchar(12) DEFAULT NULL COMMENT '计划编号',
   `adverse_event_records` int(11) DEFAULT NULL COMMENT '病例数',
   `adverse_event_label_known_serious` int(11) DEFAULT NULL COMMENT '已知 严重',
   `adverse_event_label_know_general` int(11) DEFAULT NULL COMMENT '已知 一般',
@@ -1498,9 +1651,9 @@ CREATE TABLE `pv_1_adverse_event_summary` (
 -- ----------------------------
 -- Records of pv_1_adverse_event_summary
 -- ----------------------------
-INSERT INTO `pv_1_adverse_event_summary` VALUES ('头疼脑热类', '头疼', '2', '1', '0', '0', '1');
-INSERT INTO `pv_1_adverse_event_summary` VALUES ('头疼脑热类', '寒战', '1', '0', '1', '0', '0');
-INSERT INTO `pv_1_adverse_event_summary` VALUES ('肝类', '发烧', '2', '2', '0', '0', '0');
+INSERT INTO `pv_1_adverse_event_summary` VALUES ('头疼脑热类', '头疼', '62', null, '2', '1', '0', '0', '1');
+INSERT INTO `pv_1_adverse_event_summary` VALUES ('头疼脑热类', '寒战', '62', null, '1', '0', '1', '0', '0');
+INSERT INTO `pv_1_adverse_event_summary` VALUES ('肝类', '发烧', '62', null, '2', '2', '0', '0', '0');
 
 -- ----------------------------
 -- Table structure for pv_1_adverse_event_summary_snapshot
@@ -1509,6 +1662,8 @@ DROP TABLE IF EXISTS `pv_1_adverse_event_summary_snapshot`;
 CREATE TABLE `pv_1_adverse_event_summary_snapshot` (
   `adverse_soc_name` varchar(50) DEFAULT NULL COMMENT 'SOC名称',
   `adverse_event_pt_name` varchar(32) DEFAULT NULL COMMENT 'PT名称',
+  `company_id` varchar(32) DEFAULT NULL COMMENT '公司Id',
+  `plan_number` varchar(12) DEFAULT NULL COMMENT '计划编号',
   `adverse_event_records` int(11) DEFAULT NULL COMMENT '病例数',
   `adverse_event_label_known_serious` int(11) DEFAULT NULL COMMENT '已知 严重',
   `adverse_event_label_know_general` int(11) DEFAULT NULL COMMENT '已知 一般',
@@ -1521,21 +1676,39 @@ CREATE TABLE `pv_1_adverse_event_summary_snapshot` (
 -- ----------------------------
 -- Records of pv_1_adverse_event_summary_snapshot
 -- ----------------------------
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', '2', '1', '0', '0', '1', '2018-11-14 15:42:48', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', '1', '0', '1', '0', '0', '2018-11-14 15:42:48', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', '2', '2', '0', '0', '0', '2018-11-14 15:42:48', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', '2', '1', '0', '0', '1', '2018-11-14 15:43:48', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', '1', '0', '1', '0', '0', '2018-11-14 15:43:48', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', '2', '2', '0', '0', '0', '2018-11-14 15:43:48', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', '2', '1', '0', '0', '1', '2018-11-15 08:53:01', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', '1', '0', '1', '0', '0', '2018-11-15 08:53:01', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', '2', '2', '0', '0', '0', '2018-11-15 08:53:01', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', '2', '1', '0', '0', '1', '2018-11-15 10:58:36', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', '1', '0', '1', '0', '0', '2018-11-15 10:58:36', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', '2', '2', '0', '0', '0', '2018-11-15 10:58:36', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', '2', '1', '0', '0', '1', '2018-11-16 00:00:01', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', '1', '0', '1', '0', '0', '2018-11-16 00:00:01', '5');
-INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', '2', '2', '0', '0', '0', '2018-11-16 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', null, null, '2', '1', '0', '0', '1', '2018-11-14 15:42:48', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', null, null, '1', '0', '1', '0', '0', '2018-11-14 15:42:48', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', null, null, '2', '2', '0', '0', '0', '2018-11-14 15:42:48', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', null, null, '2', '1', '0', '0', '1', '2018-11-14 15:43:48', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', null, null, '1', '0', '1', '0', '0', '2018-11-14 15:43:48', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', null, null, '2', '2', '0', '0', '0', '2018-11-14 15:43:48', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', null, null, '2', '1', '0', '0', '1', '2018-11-15 08:53:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', null, null, '1', '0', '1', '0', '0', '2018-11-15 08:53:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', null, null, '2', '2', '0', '0', '0', '2018-11-15 08:53:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', null, null, '2', '1', '0', '0', '1', '2018-11-15 10:58:36', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', null, null, '1', '0', '1', '0', '0', '2018-11-15 10:58:36', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', null, null, '2', '2', '0', '0', '0', '2018-11-15 10:58:36', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', null, null, '2', '1', '0', '0', '1', '2018-11-16 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', null, null, '1', '0', '1', '0', '0', '2018-11-16 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', null, null, '2', '2', '0', '0', '0', '2018-11-16 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', null, null, '2', '1', '0', '0', '1', '2018-11-17 00:00:05', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', null, null, '1', '0', '1', '0', '0', '2018-11-17 00:00:05', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', null, null, '2', '2', '0', '0', '0', '2018-11-17 00:00:05', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', null, null, '2', '1', '0', '0', '1', '2018-11-18 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', null, null, '1', '0', '1', '0', '0', '2018-11-18 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', null, null, '2', '2', '0', '0', '0', '2018-11-18 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', null, null, '2', '1', '0', '0', '1', '2018-11-19 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', null, null, '1', '0', '1', '0', '0', '2018-11-19 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', null, null, '2', '2', '0', '0', '0', '2018-11-19 00:00:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', null, null, '2', '1', '0', '0', '1', '2018-11-20 14:22:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', null, null, '1', '0', '1', '0', '0', '2018-11-20 14:22:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', null, null, '2', '2', '0', '0', '0', '2018-11-20 14:22:01', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', '62', null, '2', '1', '0', '0', '1', '2018-11-29 11:22:07', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', '62', null, '1', '0', '1', '0', '0', '2018-11-29 11:22:07', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', '62', null, '2', '2', '0', '0', '0', '2018-11-29 11:22:07', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '头疼', '62', null, '2', '1', '0', '0', '1', '2018-11-29 14:14:41', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('头疼脑热类', '寒战', '62', null, '1', '0', '1', '0', '0', '2018-11-29 14:14:41', '5');
+INSERT INTO `pv_1_adverse_event_summary_snapshot` VALUES ('肝类', '发烧', '62', null, '2', '2', '0', '0', '0', '2018-11-29 14:14:41', '5');
 
 -- ----------------------------
 -- Table structure for report_assessment
@@ -1575,6 +1748,43 @@ CREATE TABLE `report_assessment` (
 -- ----------------------------
 -- Records of report_assessment
 -- ----------------------------
+
+-- ----------------------------
+-- Table structure for report_concludes
+-- ----------------------------
+DROP TABLE IF EXISTS `report_concludes`;
+CREATE TABLE `report_concludes` (
+  `ID` varchar(32) NOT NULL COMMENT '主键ID',
+  `report_id` varchar(32) NOT NULL COMMENT '报告ID',
+  `project_id` varchar(32) NOT NULL COMMENT '项目ID',
+  `company_id` varchar(32) NOT NULL COMMENT '公司ID',
+  `self_report_template` text COMMENT '自发报告模版',
+  `clinical_study_template` text COMMENT '临床研究报告模版',
+  `pregnancy_report_templates` text COMMENT '妊娠报告模版',
+  `adr_remark` text COMMENT 'ADR备注',
+  `whether_report_serious` int(11) DEFAULT NULL COMMENT '报告是否严重',
+  `whether_report_serious_remark` varchar(128) DEFAULT NULL COMMENT '报告是否严重备注',
+  `correlation` int(11) DEFAULT NULL COMMENT '相关性',
+  `correlation_remark` varchar(128) DEFAULT NULL COMMENT '相关性备注',
+  `known_determine` int(11) DEFAULT NULL COMMENT '已知判断',
+  `known_determine_remark` varchar(128) DEFAULT NULL COMMENT '已知判断备注',
+  `report_ending` int(11) DEFAULT NULL COMMENT '报告结局',
+  `report_ending_remark` varchar(128) DEFAULT NULL COMMENT '报告结局备注',
+  `DELETE_STATUS` int(11) DEFAULT NULL COMMENT '删除状态',
+  `REVISION` int(11) DEFAULT NULL COMMENT '乐观锁',
+  `CREATED_BY` varchar(32) DEFAULT NULL COMMENT '创建人',
+  `CREATED_TIME` datetime DEFAULT NULL COMMENT '创建时间',
+  `UPDATED_BY` varchar(32) DEFAULT NULL COMMENT '更新人',
+  `UPDATED_TIME` datetime DEFAULT NULL COMMENT '更新时间',
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='报告总结';
+
+-- ----------------------------
+-- Records of report_concludes
+-- ----------------------------
+INSERT INTO `report_concludes` VALUES ('7342f867283b42ca9f98edd055b03a24', 'f1d6ccc3ce844d95a07a3b85a66ed63d', '13', '62', null, null, null, null, '2', null, null, null, '2', null, '5', null, '1', null, 'jerry', '2018-11-20 14:19:53', null, null);
+INSERT INTO `report_concludes` VALUES ('e400a43a6bc045faac8e5a32c4f4529a', '66e68c3ed6104db2a62a080fbfef1e6a', '13', '62', null, null, null, null, '2', null, null, null, '2', null, '5', null, '1', null, 'jerry', '2018-11-20 14:19:53', null, null);
+INSERT INTO `report_concludes` VALUES ('e425d0961d19468a951a334dc40e5d26', '5b327b1b245d4c4a9380f10e81be4307', '13', '62', null, null, null, null, '2', null, null, null, '2', null, '5', null, '1', null, 'jerry', '2018-11-20 14:19:53', null, null);
 
 -- ----------------------------
 -- Table structure for sys_dictionary
@@ -2033,22 +2243,22 @@ CREATE TABLE `sys_report` (
 -- ----------------------------
 -- Records of sys_report
 -- ----------------------------
-INSERT INTO `sys_report` VALUES ('1c3345e472b646449dfe446cb6aeab2b', '62', '13', 'FQ2018ASDF000053', '中国', '1', '3', 'e6b832b8143a4c9eb6542754f05a6f14', '数据录入', null, null, null, null, null, null, null, '2', '2', '1', '1', null, '1', null, null, '2018-11-21 00:00:00', '2014-05-04 00:00:00', '抗生素;注射用水溶性维生素', null, '李F', '', null, 'VT230602102755323546788', '成都天台山制药有限公司', null, '2', '1', null, null, null, '1', null, 'jerry', '2018-11-08 16:46:48', null, null);
-INSERT INTO `sys_report` VALUES ('1cd645bec004454cb26aec9f4d9e24f3', '62', '13', '2018ASDF000055', '中国', null, null, null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '1', '1', null, '1', null, null, '2018-11-05 00:00:00', '2018-11-05 00:00:00', ';1', null, '张三', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-09 09:12:51', null, null);
-INSERT INTO `sys_report` VALUES ('20e1b4d6eaba4396ad98a0f463fcbee2', '62', '13', 'FQ2018ASDF000052', '中国', '1', '3', '14fdc5afb4a14dba8a262f267d22edff', '原始资料数据导入', null, null, null, null, null, null, '2018-11-14 16:43:50', '2', '2', '1', '1', null, '1', null, null, '2018-11-16 00:00:00', '2014-05-04 00:00:00', '抗生素;注射用水溶性维生素', null, '李G', '', null, 'VT230602102755323546789', '成都天台山制药有限公司', null, '2', '2', null, null, null, '1', null, 'jerry', '2018-11-08 16:43:50', null, null);
-INSERT INTO `sys_report` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '62', '13', '2018ASDF000045', '中国', null, null, null, '数据录入', null, null, null, null, null, null, null, '1', null, '1', '1', null, '1', null, null, '2018-11-14 00:00:00', '2018-11-05 00:00:00', ';1', null, '212', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 16:46:40', null, null);
-INSERT INTO `sys_report` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '62', '13', '2018ASDF000056', '中国', null, null, null, '数据录入', null, null, null, null, null, null, null, '1', null, '1', '2', null, '1', null, null, '2018-11-06 00:00:00', '2018-11-06 00:00:00', ';1', null, '张三', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-09 09:13:57', null, null);
-INSERT INTO `sys_report` VALUES ('3e9f40922dc64ae19edaad0d441384ef', '62', '13', 'FQ2018ASDF000051', '中国', '1', '3', 'e6b832b8143a4c9eb6542754f05a6f14', '数据录入', null, null, null, null, null, null, null, '2', '2', '2', '2', null, '1', null, null, '2018-11-16 00:00:00', '2014-05-04 00:00:00', '抗生素;注射用水溶性维生素', null, '李F', '', null, 'VT230602102755323546788', '成都天台山制药有限公司', null, '2', '1', null, null, null, '1', null, 'jerry', '2018-11-08 16:43:50', null, null);
-INSERT INTO `sys_report` VALUES ('59f9aaf4958a4249b6a8ea71e3ab6976', '62', '13', '2018ASDF000049', '中国', '1', '1', null, '原始资料数据导入', null, null, null, null, null, null, null, '1', '1', '2', '2', null, '1', null, null, '2018-11-08 10:41:17', '2018-11-08 10:41:15', '1;1', null, '张三', null, null, null, '万千瓦', null, null, null, null, null, null, '1', '1', '33', '2018-11-08 10:42:19', null, null);
-INSERT INTO `sys_report` VALUES ('6315dbade5054439aad0b643130d2ac0', '62', '13', '2018ASDF000043', '中国', null, null, null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '1', '2', null, '1', null, null, '2018-11-14 00:00:00', '2018-11-07 15:41:34', ';1', null, '21', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 15:42:05', '33', '2018-11-07 15:46:59');
-INSERT INTO `sys_report` VALUES ('6430f06ad9be47339007e72125dc557f', '62', '13', '2018ASDF000042', '中国', null, null, null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '2', '1', null, '1', null, null, '2018-11-08 00:00:00', '2018-11-07 15:31:52', ';1', null, '张三', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 15:32:36', null, null);
-INSERT INTO `sys_report` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '62', '13', '2018ASDF000041', '中国', null, null, null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '2', '2', null, '1', null, null, '2018-11-16 00:00:00', '2018-11-15 00:00:00', ';1', null, '张三', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 15:18:14', null, null);
+INSERT INTO `sys_report` VALUES ('1c3345e472b646449dfe446cb6aeab2b', '62', '13', 'FQ2018ASDF000053', '中国', '1', '3', 'e6b832b8143a4c9eb6542754f05a6f14', '数据录入', null, null, null, null, null, null, null, '2', '2', '1', '1', null, '1', null, null, '2018-10-03 00:00:00', '2014-05-04 00:00:00', '抗生素;注射用水溶性维生素', null, '李F', '', null, 'VT230602102755323546788', '成都天台山制药有限公司', null, '2', '1', null, null, null, '1', null, 'jerry', '2018-11-08 16:46:48', null, null);
+INSERT INTO `sys_report` VALUES ('1cd645bec004454cb26aec9f4d9e24f3', '62', '13', '2018ASDF000055', '中国', '0', '4', null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '1', '1', null, '1', null, null, '2018-09-02 00:00:00', '2018-11-05 00:00:00', ';1', null, '张三', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-09 09:12:51', null, null);
+INSERT INTO `sys_report` VALUES ('20e1b4d6eaba4396ad98a0f463fcbee2', '62', '13', 'FQ2018ASDF000052', '中国', '1', '3', '14fdc5afb4a14dba8a262f267d22edff', '原始资料数据导入', null, null, null, null, null, null, '2018-11-14 16:43:50', '2', '2', '1', '1', null, '1', null, null, '2018-09-12 00:00:00', '2014-05-04 00:00:00', '抗生素;注射用水溶性维生素', null, '李G', '', null, 'VT230602102755323546789', '成都天台山制药有限公司', null, '2', '2', null, null, null, '1', null, 'jerry', '2018-11-08 16:43:50', null, null);
+INSERT INTO `sys_report` VALUES ('2c8f667b92974ad48b608dd5137a0f79', '62', '13', '2018ASDF000045', '中国', '0', '4', null, '数据录入', null, null, null, null, null, null, null, '1', null, '1', '1', null, '1', null, null, '2018-08-14 00:00:00', '2018-11-05 00:00:00', ';1', null, '212', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 16:46:40', null, null);
+INSERT INTO `sys_report` VALUES ('3dd2e560c4ba4c17800edbb708b4d344', '62', '13', '2018ASDF000056', '中国', '1', '5', null, '数据录入', null, null, null, null, null, null, null, '1', null, '1', '2', null, '1', null, null, '2018-07-18 00:00:00', '2018-11-06 00:00:00', ';1', null, '张三', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-09 09:13:57', null, null);
+INSERT INTO `sys_report` VALUES ('3e9f40922dc64ae19edaad0d441384ef', '62', '13', 'FQ2018ASDF000051', '中国', '1', '3', 'e6b832b8143a4c9eb6542754f05a6f14', '数据录入', null, null, null, null, null, null, null, '2', '2', '2', '2', null, '1', null, null, '2018-08-22 00:00:00', '2014-05-04 00:00:00', '抗生素;注射用水溶性维生素', null, '李F', '', null, 'VT230602102755323546788', '成都天台山制药有限公司', null, '2', '1', null, null, null, '1', null, 'jerry', '2018-11-08 16:43:50', null, null);
+INSERT INTO `sys_report` VALUES ('59f9aaf4958a4249b6a8ea71e3ab6976', '62', '13', '2018ASDF000049', '中国', '1', '1', null, '原始资料数据导入', null, null, null, null, null, null, null, '1', '1', '2', '2', null, '1', null, null, '2018-06-06 10:41:17', '2018-11-08 10:41:15', '1;1', null, '张三', null, null, null, '万千瓦', null, null, null, null, null, null, '1', '1', '33', '2018-11-08 10:42:19', null, null);
+INSERT INTO `sys_report` VALUES ('6315dbade5054439aad0b643130d2ac0', '62', '13', '2018ASDF000043', '中国', '1', '6', null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '1', '2', null, '1', null, null, '2018-11-14 00:00:00', '2018-11-07 15:41:34', ';1', null, '21', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 15:42:05', '33', '2018-11-07 15:46:59');
+INSERT INTO `sys_report` VALUES ('6430f06ad9be47339007e72125dc557f', '62', '13', '2018ASDF000042', '中国', '1', '6', null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '2', '1', null, '1', null, null, '2018-11-08 00:00:00', '2018-11-07 15:31:52', ';1', null, '张三', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 15:32:36', null, null);
+INSERT INTO `sys_report` VALUES ('6c2db958cfb04543b2e49a85c4628e1d', '62', '13', '2018ASDF000041', '中国', '1', '7', null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '2', '2', null, '1', null, null, '2018-11-16 00:00:00', '2018-11-15 00:00:00', ';1', null, '张三', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 15:18:14', null, null);
 INSERT INTO `sys_report` VALUES ('8aa8cfcfbe384b86862a98c35dcd9107', '62', '13', 'FQ2018ASDF000054', '中国', '1', '3', '14fdc5afb4a14dba8a262f267d22edff', '原始资料数据导入', null, null, null, null, null, null, '2018-11-14 16:46:48', '2', '2', '1', '2', null, '1', null, null, '2018-11-21 00:00:00', '2014-05-04 00:00:00', '抗生素;注射用水溶性维生素', null, '李G', '', null, 'VT230602102755323546789', '成都天台山制药有限公司', null, '2', '2', null, null, null, '1', null, 'jerry', '2018-11-08 16:46:48', null, null);
-INSERT INTO `sys_report` VALUES ('96ccddfe5fd641e6bf6989271c941e3e', '62', '13', '2018ASDF000044', '中国', null, null, null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '2', '1', null, '1', null, null, '2018-11-08 00:00:00', '2018-11-07 16:11:29', ';1', null, '21', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 16:19:25', null, null);
-INSERT INTO `sys_report` VALUES ('9b49916d29014f06af228469cef450cf', '62', '13', '2018ASDF000050', '中国', null, null, null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '1', '2', null, '1', null, null, '2018-11-08 15:38:34', '2018-11-08 15:38:32', ';1', null, '21', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-08 15:39:07', null, null);
-INSERT INTO `sys_report` VALUES ('b42588aeddbf4be5ac6d5a66fdd079a7', '62', '13', '2018ASDF000048', '中国', null, null, null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '1', '2', null, '1', null, null, '2018-11-08 00:00:00', '2018-11-09 00:00:00', ';1', null, '张三', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-08 10:22:06', null, null);
-INSERT INTO `sys_report` VALUES ('f0434d95b512457abb15b37014e65cc9', '62', '13', '2018ASDF000047', '中国', null, null, null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '2', '2', null, '1', null, null, '2018-11-22 00:00:00', '2018-11-09 00:00:00', ';1', null, '张三', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 18:47:04', null, null);
-INSERT INTO `sys_report` VALUES ('ff9d6683bc814dc18235cb55b2689724', '62', '13', '2018ASDF000046', '中国', null, null, null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '1', '1', null, '1', null, null, '2018-11-07 18:35:42', '2018-11-07 18:34:44', ';1', null, '212', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 18:36:10', null, null);
+INSERT INTO `sys_report` VALUES ('96ccddfe5fd641e6bf6989271c941e3e', '62', '13', '2018ASDF000044', '中国', '0', '7', null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '2', '1', null, '1', null, null, '2018-06-13 00:00:00', '2018-11-07 16:11:29', ';1', null, '21', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 16:19:25', null, null);
+INSERT INTO `sys_report` VALUES ('9b49916d29014f06af228469cef450cf', '62', '13', '2018ASDF000050', '中国', '0', '8', null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '1', '2', null, '1', null, null, '2018-11-08 15:38:34', '2018-11-08 15:38:32', ';1', null, '21', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-08 15:39:07', null, null);
+INSERT INTO `sys_report` VALUES ('b42588aeddbf4be5ac6d5a66fdd079a7', '62', '13', '2018ASDF000048', '中国', '0', '2', null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '1', '2', null, '1', null, null, '2018-04-04 00:00:00', '2018-11-09 00:00:00', ';1', null, '张三', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-08 10:22:06', null, null);
+INSERT INTO `sys_report` VALUES ('f0434d95b512457abb15b37014e65cc9', '62', '13', '2018ASDF000047', '中国', '0', '5', null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '2', '2', null, '1', null, null, '2018-04-18 00:00:00', '2018-11-09 00:00:00', ';1', null, '张三', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 18:47:04', null, null);
+INSERT INTO `sys_report` VALUES ('ff9d6683bc814dc18235cb55b2689724', '62', '13', '2018ASDF000046', '中国', '0', null, null, '原始资料数据导入', null, null, null, null, null, null, null, '1', null, '1', '1', null, '1', null, null, '2018-05-08 18:35:42', '2018-11-07 18:34:44', ';1', null, '212', null, null, null, '', null, null, null, null, null, null, '1', '1', '33', '2018-11-07 18:36:10', null, null);
 
 -- ----------------------------
 -- Procedure structure for pv_1_adverse_event_report
@@ -2092,7 +2302,8 @@ BEGIN
  if (lower(p_tablename) = 'pv_1_adverse_event_detail') then 	
             truncate table pv_1_adverse_event_detail;          
 
-						INSERT INTO pv_1_adverse_event_detail (
+		/*  讨论后有调整字段,故此注释旧有版本	
+			INSERT INTO pv_1_adverse_event_detail (
 						id,
 						report_no,
 						event_from_country,
@@ -2109,6 +2320,9 @@ BEGIN
 						medication_end_time,
 						report_sources,
 						causal_relationship,
+            adverse_soc_name ,
+            plan_number,
+            company_id,
 						remark,
 						sessionruntime
 					) SELECT
@@ -2135,17 +2349,22 @@ BEGIN
 						ppmh.medication_end_time,
 						bra.report_sources,
 						ra.causal_relationship,
+            md.adverse_soc_name ,
+            pp.PLAN_NUMBER,
+            sr.company_id,-- 测试反馈点3)：需要添加sys_report.company_id
 						NULL AS remark,
 						v_sessionruntime
 					FROM
 						sys_report AS sr
 					LEFT JOIN drug AS d ON sr.drug_name = d.drug_generic_zh_name
+          left JOIN psur AS pp ON d.id = pp.DRUG_ID -- 测试反馈点1)：需要添加psur.plan_number
 					LEFT JOIN adverse_events AS ae ON ae.report_id = sr.id
 					LEFT JOIN patientinfo_basic AS pb ON sr.id = pb.report_id
 					LEFT JOIN patientinfo_previous_medical_history AS ppmh ON sr.id = ppmh.report_id
 					AND ppmh.drug_indications_pt_name = ae.adverse_event_pt_name
 					LEFT JOIN basicinfo_report_attributes AS bra ON sr.id = bra.report_id
 					LEFT JOIN report_assessment AS ra ON sr.id = ra.report_id
+          LEFT JOIN medical_dictionary AS md ON ae.adverse_event_dict_id = md.id -- 测试反馈点2)：需要添加medical_dictionary.adverse_soc_name
 					WHERE
 						sr.id IN (
 							SELECT DISTINCT
@@ -2175,8 +2394,316 @@ BEGIN
 								)
 							)
 							AND p.ACTIVE_INGREDIENTS IS NOT NULL
-						);   
-INSERT INTO pv_1_adverse_event_detail_snapshot (
+						);   */
+
+
+			INSERT INTO pv_1_adverse_event_detail (
+				id,
+				report_no,
+				event_from_country,
+				first_follow_up,
+				drug_production_batch,
+				drug_dosage,
+				adverse_event_name,
+				adverse_event_pt_name,
+				event_start_date,
+				events_turn,
+				patient_age,
+				patient_sex,
+				medication_start_time,
+				medication_end_time,
+				report_sources,
+				causal_relationship,
+				adverse_soc_name,
+				plan_number,
+				company_id,
+				remark,
+				report_type,
+				first_create_time,
+				drug_name,
+				drug_dose,
+				drug_dose_unit,
+				time_interval,
+				time_interval_unit,
+				daily_number,
+				drug_use_duration,
+				drug_use_duration_unit,
+				known_new,
+				known_serious,
+				age_group,
+				report_ending,
+				drug_generic_zh_name,
+				drug_generic_en_name,
+				drug_product_zh_name,
+				drug_product_en_name,
+				report_description,
+				company_description
+			) SELECT
+				sr.id AS '报告ID',
+				sr.report_no AS `企业病例号`,
+				sr.event_from_country AS `病例发生地`,
+				sr.first_follow_up AS `初始/跟踪报告`,
+				d.drug_production_batch AS `药品批号`,
+				d.drug_dosage AS `用法用量`,
+				ae.adverse_event_name AS `不良事件名称`,
+				ae.adverse_event_pt_name AS `用药原因`,
+				ae.event_start_date AS `不良反应发生时间`,
+				ae.events_turn AS `不良反应结果`,
+				pb.patient_age AS `年龄`,
+				(
+					CASE
+					WHEN pb.patient_sex = 1 THEN
+						'男'
+					WHEN pb.patient_sex = 0 THEN
+						'女'
+					END
+				) AS `性别`,
+				ppmh.medication_start_time AS `用药开始日期`,
+				ppmh.medication_end_time AS `用药结束日期`,
+				bra.report_sources AS `企业信息来源`,
+				ra.causal_relationship AS `评价意见`,
+				md.adverse_soc_name AS 'SOC名称',
+				pp.plan_number AS '计划编号',
+				sr.company_id AS '公司ID',
+				'' AS 备注,
+				sr.report_type AS `企业报告类型`,
+				sr.first_create_time AS `首次获知时间`,
+				sr.drug_name AS `药物名称`,
+				dur.drug_dose AS `单次剂量`,
+				dur.drug_dose_unit AS `计量单位`,
+				dur.time_interval AS `间隔时间`,
+				dur.time_interval_unit AS `间隔时间单位`,
+				dur.daily_number AS `间隔时间次数`,
+				dur.drug_use_duration AS `给药持续时间`,
+				dur.drug_use_duration_unit AS `给药持续时间单位`,
+				ae.known_new AS `是否已知`,
+				ae.known_serious AS `是否严重`,
+				pb.age_group AS `年龄层`,
+				rc.report_ending AS `报告总结`,
+				GROUP_CONCAT(
+					DISTINCT IFNULL(
+						d.drug_generic_zh_name,
+						',*'
+					)
+				) AS `通用中文名`,
+				GROUP_CONCAT(
+					DISTINCT IFNULL(
+						d.drug_generic_en_name,
+						',*'
+					)
+				) AS `通用英文名`,
+				GROUP_CONCAT(
+					DISTINCT IFNULL(
+						d.drug_product_zh_name,
+						',*'
+					)
+				) AS `商品中文名`,
+				GROUP_CONCAT(
+					DISTINCT IFNULL(
+						d.drug_product_en_name,
+						',*'
+					)
+				) AS `商品英文名`,
+				CONCAT(
+					IFNULL(sr.company_id, '*'),
+					'公司内部编号：',
+					IFNULL(sr.report_no, '*'),
+					'这是一份来自于',
+					IFNULL(sr.report_type, '*'),
+					'的报告，收到报告日期为',
+					IFNULL(sr.first_create_time, '*'),
+					'。 该',
+					IFNULL(pb.patient_sex, '*'),
+					'性患者',
+					IFNULL(pb.patient_age, '*'),
+					',岁，于',
+					IFNULL(
+						ppmh.medication_start_time,
+						'*'
+					),
+					'开始进行药物治疗，药物名称：',
+					IFNULL(sr.drug_name, '*'),
+					'，单次剂量',
+					IFNULL(dur.drug_dose, '*'),
+					IFNULL(dur.drug_dose_unit, '*'),
+					'，频率为',
+					IFNULL(dur.time_interval, '*'),
+					IFNULL(dur.time_interval_unit, '*'),
+					IFNULL(dur.daily_number, '*'),
+					'次，给药持续时间为',
+					IFNULL(dur.drug_use_duration, '*'),
+					IFNULL(
+						dur.drug_use_duration_unit,
+						'*'
+					)
+				) AS `报告描述`,
+				CONCAT(
+					IFNULL(pb.age_group, '*'),
+					IFNULL(pb.patient_sex, '*'),
+					'性，使用',
+					IFNULL(sr.drug_name, '*'),
+					'后出现',
+					IFNULL(ae.adverse_event_name, '*'),
+					'，为',
+					CASE
+				WHEN ae.known_new = 1
+				AND ae.known_serious = 1 THEN
+					'已知严重'
+				WHEN ae.known_new = 1
+				AND ae.known_serious = 0 THEN
+					'已知一般'
+				WHEN ae.known_new = 0
+				AND ae.known_serious = 1 THEN
+					'未知严重'
+				WHEN ae.known_new = 0
+				AND ae.known_serious = 0 THEN
+					'未知一般'
+				ELSE
+					'*'
+				END,
+				'的反应，考虑为',
+				IFNULL(rc.report_ending, '*')
+				) AS `公司评述`
+			FROM
+				sys_report AS sr
+			LEFT JOIN drug_info AS di ON sr.id = di.report_id
+			LEFT JOIN drug AS d ON d.drug_generic_zh_name = di.generic_name
+			LEFT JOIN psur AS pp ON d.id = pp.DRUG_ID -- 测试反馈点1)：需要添加psur.plan_number
+			LEFT JOIN drug_use_result AS dur ON dur.drug_id = d.id
+			LEFT JOIN adverse_events AS ae ON ae.report_id = sr.id
+			LEFT JOIN report_concludes AS rc ON rc.report_id = sr.id
+			LEFT JOIN patientinfo_basic AS pb ON sr.id = pb.report_id
+			LEFT JOIN patientinfo_previous_medical_history AS ppmh ON sr.id = ppmh.report_id
+			AND ppmh.drug_indications_pt_name = ae.adverse_event_pt_name
+			LEFT JOIN basicinfo_report_attributes AS bra ON sr.id = bra.report_id
+			LEFT JOIN report_assessment AS ra ON sr.id = ra.report_id
+			LEFT JOIN medical_dictionary AS md ON ae.adverse_event_dict_id = md.id -- 测试反馈点2)：需要添加medical_dictionary.adverse_soc_name
+			WHERE
+				sr.id IN (
+					SELECT DISTINCT
+						s.id
+					FROM
+						sys_report AS s
+					LEFT JOIN drug_info AS d ON d.report_id = s.id
+					LEFT JOIN psur AS p ON d.active_ingredients = p.ACTIVE_INGREDIENTS -- inner 
+					WHERE
+						s.delete_status = 1
+					AND d.DELETE_STATUS = 1
+					AND p.DELETE_STATUS = 1
+					AND (
+						DATE_FORMAT(
+							s.CREATED_TIME,
+							'%Y-%m-%d %H:%i:%S'
+						) >= DATE_FORMAT(
+							p.START_DATE,
+							'%Y-%m-%d %H:%i:%S'
+						)
+						AND DATE_FORMAT(
+							s.CREATED_TIME,
+							'%Y-%m-%d %H:%i:%S'
+						) <= DATE_FORMAT(
+							p.EXPIRY_DATE,
+							'%Y-%m-%d %H:%i:%S'
+						)
+					)
+					AND p.ACTIVE_INGREDIENTS IS NOT NULL
+				)
+			GROUP BY
+				sr.id;
+
+
+			INSERT INTO pv_1_adverse_event_detail_snapshot (
+				id,
+				report_no,
+				event_from_country,
+				first_follow_up,
+				drug_production_batch,
+				drug_dosage,
+				adverse_event_name,
+				adverse_event_pt_name,
+				event_start_date,
+				events_turn,
+				patient_age,
+				patient_sex,
+				medication_start_time,
+				medication_end_time,
+				report_sources,
+				causal_relationship,
+				adverse_soc_name,
+				plan_number,
+				company_id,
+				remark,
+				report_type,
+				first_create_time,
+				drug_name,
+				drug_dose,
+				drug_dose_unit,
+				time_interval,
+				time_interval_unit,
+				daily_number,
+				drug_use_duration,
+				drug_use_duration_unit,
+				known_new,
+				known_serious,
+				age_group,
+				report_ending,
+				drug_generic_zh_name,
+				drug_generic_en_name,
+				drug_product_zh_name,
+				drug_product_en_name,
+				report_description,
+				company_description,
+				sessionruntime,
+				records
+			) SELECT
+				id,
+				report_no,
+				event_from_country,
+				first_follow_up,
+				drug_production_batch,
+				drug_dosage,
+				adverse_event_name,
+				adverse_event_pt_name,
+				event_start_date,
+				events_turn,
+				patient_age,
+				patient_sex,
+				medication_start_time,
+				medication_end_time,
+				report_sources,
+				causal_relationship,
+				adverse_soc_name,
+				plan_number,
+				company_id,
+				remark,
+				report_type,
+				first_create_time,
+				drug_name,
+				drug_dose,
+				drug_dose_unit,
+				time_interval,
+				time_interval_unit,
+				daily_number,
+				drug_use_duration,
+				drug_use_duration_unit,
+				known_new,
+				known_serious,
+				age_group,
+				report_ending,
+				drug_generic_zh_name,
+				drug_generic_en_name,
+				drug_product_zh_name,
+				drug_product_en_name,
+				report_description,
+				company_description,
+				v_sessionruntime,
+				v_records
+			FROM
+				pv_1_adverse_event_detail;
+
+
+/* 同理注释调snapshot 表
+ INSERT INTO pv_1_adverse_event_detail_snapshot (
 						id,
 						report_no,
 						event_from_country,
@@ -2193,6 +2720,9 @@ INSERT INTO pv_1_adverse_event_detail_snapshot (
 						medication_end_time,
 						report_sources,
 						causal_relationship,
+            adverse_soc_name ,
+            plan_number,
+            company_id,
 						remark,
 						sessionruntime,
             records
@@ -2213,11 +2743,19 @@ INSERT INTO pv_1_adverse_event_detail_snapshot (
 						medication_end_time,
 						report_sources,
 						causal_relationship,
+            adverse_soc_name ,
+            plan_number,
+            company_id,
 						remark,
 						v_sessionruntime,
             v_records
             from 
-						pv_1_adverse_event_detail;  
+						pv_1_adverse_event_detail;  */
+
+
+
+
+
 
 -- 如果参数是pv_1_adverse_event_summary,则把"个例药品不良反应汇总表"填满,并填充当天的快照
  ELSEIF (lower(p_tablename) = 'pv_1_adverse_event_summary') then 
@@ -2225,6 +2763,8 @@ INSERT INTO pv_1_adverse_event_detail_snapshot (
    INSERT INTO pv_1_adverse_event_summary (
 	adverse_soc_name,
 	adverse_event_pt_name,
+  company_id,
+  plan_number,
 	adverse_event_records,
 	adverse_event_label_known_serious,
 	adverse_event_label_know_general,
@@ -2233,6 +2773,8 @@ INSERT INTO pv_1_adverse_event_detail_snapshot (
 ) SELECT
 	adverse_soc_name AS 'SOC名称',
 	adverse_event_pt_name AS 'PT名称',
+	company_id as '公司ID',
+	plan_number as '计划编号',
 	count(DISTINCT id) AS '病例数',
 	count(
 		CASE
@@ -2260,7 +2802,7 @@ INSERT INTO pv_1_adverse_event_detail_snapshot (
 	) AS '未知|一般'
 FROM
 	(
-		SELECT
+			SELECT
 			ae.adverse_event_pt_name,
 			-- AS 'PT名称',
 			ae.adverse_event_name,
@@ -2289,10 +2831,14 @@ FROM
 		ELSE
 			'其他'
 		END 'label',
-		sr.id
+		sr.id,
+    sr.company_id,
+    pp.plan_number
 	FROM
 		adverse_events AS ae
 	LEFT JOIN sys_report AS sr ON sr.id = ae.report_id
+	LEFT JOIN drug AS d ON sr.drug_name = d.drug_generic_zh_name
+	left JOIN psur AS pp ON d.id = pp.DRUG_ID -- 测试反馈点1)：需要添加psur.plan_number
 	LEFT JOIN medical_dictionary AS md ON ae.adverse_event_dict_id = md.id
 	WHERE
 		ae.DELETE_STATUS = 1
@@ -2328,11 +2874,15 @@ FROM
 	) temp
 GROUP BY
 	adverse_soc_name,
-	adverse_event_pt_name;
+	adverse_event_pt_name,
+	company_id,
+	plan_number;
 
  insert into pv_1_adverse_event_summary_snapshot(
 adverse_soc_name,
 	adverse_event_pt_name,
+  company_id,
+  plan_number,
 	adverse_event_records,
 	adverse_event_label_known_serious,
 	adverse_event_label_know_general,
@@ -2343,6 +2893,8 @@ adverse_soc_name,
   select 
   adverse_soc_name,
 	adverse_event_pt_name,
+  company_id,
+  plan_number,
 	adverse_event_records,
 	adverse_event_label_known_serious,
 	adverse_event_label_know_general,
