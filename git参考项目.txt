@@ -13,4 +13,27 @@ https://github.com/cachecats/sell
 
 https://gitee.com/hackempire/emsite-parent
 
+开发工具地址
+https://www.hutool.cn/
+
+<dependency> 
+    <groupId>cn.hutool</groupId> 
+    <artifactId>hutool-all</artifactId> 
+    <version>4.2.1</version> 
+</dependency>
+
+https://gitee.com/shiyanjun/redis-admin
+
+https://gitee.com/quella01/Quella
+
+https://gitee.com/xuxueli0323/xxl-sso
+
+
+前端：https://gitee.com/lcg0124/clouddo-view.git
+
+后端：https://gitee.com/lcg0124/clouddo
+
+GitHub：https://github.com/thinkgem/jeesite4-cloud
+
+
 
